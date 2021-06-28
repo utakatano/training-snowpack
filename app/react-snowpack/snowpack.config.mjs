@@ -3,10 +3,11 @@ export default {
   mount: {
     /* ... */
     public: '/',
-    src: 'dist'
+    src: '/dist'
   },
   plugins: [
     /* ... */
+    '@snowpack/plugin-react-refresh'
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
